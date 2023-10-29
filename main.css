@@ -1,0 +1,182 @@
+/*テキスト*/
+#title_name{
+  font-size: 5.5vmin;
+  margin-bottom: 7vmin;
+}
+
+#text_before_scramble{
+  font-size: 2vmin;
+}
+
+#text_scramble{
+  font-size: 8vmin;
+  text-decoration: underline 2px #FF0000;
+  text-underline-offset:0.1em;
+  margin-bottom: 6vmin;
+}
+
+#text_counter{
+    font-size: 25px;
+}
+
+
+
+#canvas{
+    margin-bottom: 8vmin;
+}
+
+#counters{
+  width:262px;
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+}
+
+
+
+/*ボタン*/
+#reset-counter{
+  margin-left: 10px;
+}
+
+#setting-button{
+  font-size:2vmin;
+/*  margin-right: 300px;*/
+}
+
+#state-button{
+  font-size:2vmin;
+
+}
+
+
+.modal {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+
+/*テーブル*/
+.table-wrap {
+  overflow-x: auto;
+}
+
+
+label, input[type='checkbox'] {
+    cursor: pointer;
+}
+
+
+
+/*tcllのチェックボックス関係*/
+.check-box{
+  background-color: #ABC88B;
+  cursor: pointer;
+  height: 80px;
+  width:150px;
+  border:solid 1px;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  position: relative;
+}
+
+.check-box-title{
+  cursor: pointer;
+
+  background-color: #ABC88B;
+  width:150px;
+  border-top: solid 1px;
+  border-left: solid 1px;
+  border-right: solid 1px;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+}
+
+
+
+.check-text {
+  /*テキストボックスとテキストの上下を中央に*/
+  align-items: center;
+  display: flex;
+}
+
+.check-box input{
+  display: none; /* デフォルトのチェックボックスを非表示 */
+}
+
+
+#img-twist1-1{
+  background-image: url("./image/1.png");
+}
+
+#img-twist1-2{
+  background-image: url("./image/2.png");
+}
+
+#img-twist1-3{
+  background-image: url("./image/3.png");
+}
+
+#img-twist1-4{
+  background-image: url("./image/4.png");
+}
+
+#img-twist2-1{
+  background-image: url("./image/5.png");
+}
+
+#img-twist2-2{
+  background-image: url("./image/6.png");
+}
+
+#img-twist3-1{
+  background-image: url("./image/7.png");
+}
+
+#img-twist3-2{
+  background-image: url("./image/8.png");
+}
+
+#img-twist3-3{
+  background-image: url("./image/9.png");
+}
+
+#img-twist3-4{
+  background-image: url("./image/10.png");
+}
+
+#img-twist3-5{
+  background-image: url("./image/11.png");
+}
+
+#img-twist3-6{
+  background-image: url("./image/12.png");
+}
+
+#img-twist3-7{
+  background-image: url("./image/13.png");
+}
+
+#img-twist3-8{
+  background-image: url("./image/14.png");
+}
+
+#img-twist4-1{
+  background-image: url("./image/15.png");
+}
+
+#img-twist4-2{
+  background-image: url("./image/16.png");
+}
+
+#img-twist4-3{
+  background-image: url("./image/17.png");
+}
+
+#img-twist4-4{
+  background-image: url("./image/18.png");
+}
