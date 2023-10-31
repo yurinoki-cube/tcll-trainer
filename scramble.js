@@ -272,7 +272,7 @@ function chengeDface(col){
       alg.push(0);
       switch (Twist) {
         case 0:
-          alg.push(2);
+          alg.push(3);
           break;
         case 1:
           alg.push(2);
